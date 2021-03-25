@@ -1,0 +1,583 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*header section*/
+header{
+width: 100%;
+float: left;
+position: fixed;
+background: white;
+top: 0;
+}
+
+.logo{
+    width: 33.33;
+    float: left;
+}
+.logo img{
+    width:130px;
+    float: left;
+    margin: -2px 0px;
+}
+
+
+.menu{
+width: 33.33;
+float: left;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav ul li{
+display: inline-block;
+margin:20px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+
+.icon{
+    width: 33.33;
+    float: left;
+}
+
+.icon ul{
+list-style: none;
+}
+
+.icon ul li{
+display: inline-block;
+margin: 20px 5px;
+
+}
+
+/*
+.icon ul li i{
+   
+}
+
+     */
+
+.icon ul li a{
+text-decoration: none;
+font-weight: bold;
+}
+
+.fab.fa-facebook-f{
+    background:rgba(84, 84, 216, 0.945);
+    padding: 5px 10px;
+    color:white;
+}
+
+.fab.fa-twitter{
+    background:rgb(47, 214, 226);
+    padding: 5px 10px;
+    color: white;
+}
+
+.fab.fa-linkedin-in{
+    background: rgb(85, 2, 194);
+    padding: 5px 10px;
+    color: white;
+}
+.fab.fa-google-plus-g{
+    background: rgb(172, 49, 28);
+    padding: 5px 10px;
+    color: white;
+}
+
+
+                                /* Image-section */
+.banner{
+    width: 100%;
+   float: left;
+   background: url(./img/869.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 588px;
+   margin: 65px 0px;
+   position: relative;
+}
+
+.content{
+    background-color: rgb(2 2 2 / 65%);
+    margin: 80px 38px;
+    padding: 133px 47px;
+    position: absolute;
+}
+
+.content h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.938);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.banner .content p{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner .content ul{
+    list-style: none;
+}
+
+.banner .content ul li{
+    display: inline-block;
+    padding: 6px 18px;
+}
+
+.banner .content ul li button{
+    background-color: rgba(224, 205, 34, 0.938);
+    color: black;
+    border: none;
+    padding: 6px 10px;
+    margin: 10px 29px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+        /* details-section*/
+
+.details{
+    width: 100%;
+    float: left;
+    
+}
+
+.concept{
+    width: 25%; 
+    float: left;
+}
+
+.fas.fa-check{
+    margin: 5px 115px;
+    padding: 10px;
+    font-size: 22px;
+    background: #03877be8;
+    border-radius: 24px;
+    color: white;
+}
+
+.concept h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.concept p{
+    padding: 6px 14px;
+    text-align: justify;
+}
+
+.concept button{
+    display: block;
+    margin: 0 auto;
+    padding: 6px 12px;
+    margin: 8px 91px;
+    background: #37ca37;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.loan{
+    width: 25%;
+    float: left;
+}
+
+.fas.fa-map-marker-alt{
+    margin: 5px 115px;
+    padding: 10px;
+    font-size: 22px;
+    background: #02a145f8;
+    border-radius: 24px;
+    color: white;
+}
+
+.loan h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.loan p{
+    padding: 6px 14px;
+    text-align: justify;
+}
+
+.loan button{
+    display: block;
+    margin: 0 auto;
+    padding: 6px 12px;
+    margin: 8px 91px;
+    background: #37ca37;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.financing{
+    width: 25%;
+    float: left;
+}
+
+.fas.fa-dollar-sign{
+    margin: 5px 115px;
+    padding: 10px;
+    font-size: 22px;
+    background: #7e0202;
+    border-radius: 24px;
+    color: white;
+}
+
+.financing h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.financing p{
+    padding: 6px 14px;
+    text-align: justify;
+}
+
+.financing button{
+    display: block;
+    margin: 0 auto;
+    padding: 6px 12px;
+    margin: 8px 91px;
+    background: #37ca37;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.sign-up{
+    width: 25%;
+    float: left;
+}
+
+.fas.fa-user-plus{
+    margin: 5px 115px;
+    padding: 10px;
+    font-size: 22px;
+    background: #54015e;
+    border-radius: 24px;
+    color: white;
+}
+
+.sign-up h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.sign-up p{
+    padding: 6px 14px;
+    text-align: justify;
+}
+
+.sign-up button{
+    display: block;
+    margin: 0 auto;
+    padding: 6px 12px;
+    margin: 8px 91px;
+    background: #37ca37;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+                            /*about-section*/
+
+.about{
+    width: 100%;
+    float: left;
+}
+
+.invest-money{
+    width: 27%;
+    float: left;
+    background: rgb(47 147 147 / 43%);
+    padding: 15px 36px;
+    margin: 25px 81px;
+}
+
+.fa-dot-circle{
+    color: #37ca37;
+    font-size: 12px;
+    margin-right: 7px;
+}
+
+.invest-money h2{
+    margin: 11px 23px;
+}
+
+.invest-money ul{
+list-style: none;
+}
+
+.invest-money ul li{
+    padding: 4px 15px;
+}
+
+.invest-money button{
+    margin: 7px 18px;
+    padding: 6px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #37ca37;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.invest-money1{
+    width: 27%;
+    float: left;
+    background: rgb(47 147 147 / 43%);
+    padding: 15px 36px;
+    margin: 25px 81px;
+}
+
+.invest-money1 h2{
+    margin: 11px 23px;
+}
+
+.invest-money1 ul{
+    list-style: none;
+}
+
+.invest-money1 ul li{
+    padding: 4px 15px;
+}
+
+.invest-money1 button{
+    margin: 7px 18px;
+    padding: 6px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #37ca37;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+                /* blog section*/
+
+.blog{
+width: 100%;
+float: left;
+}
+
+.blog .text{
+    font-size: 35px;
+    padding: 13px 1px;
+    margin: 0px 500px;
+}
+
+.blog .blog-1{
+    width: 45%;
+    float: left;
+    padding: 15px 20px;
+}
+
+.blog h2{
+    color: #3939c0f7;
+    padding: 7px 0px;
+}
+
+.blog p{
+    padding: 2px 2px;
+}
+
+.blog button{
+    background: #37ca37;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    margin: 4px 4px;
+}
+
+.blog .blog-2{
+width: 45%;
+float: left;
+padding: 15px 13px;
+}
+
+.blog-2 h2{
+    color: #3939c0f7;
+    padding: 0px 0px;
+    margin: 10px 5px;
+}
+
+.blog-2 p{
+    margin: 1px 5px;
+}
+
+
+.blog-2 button{
+    background: #37ca37;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    margin: 4px 4px;
+}
+
+                    /* lent section*/
+
+.lent{
+    width: 100%;
+    float: left;
+    background: #dcdcdc;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 25px 0px;
+    font-weight: bold;
+}
+     
+                /* pilot section*/
+
+.pilot{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.pilot .fas.fa-star{
+    color: #1eb0b0;
+    padding: 8px 4px;
+    font-size: 26px;
+}
+
+.pilot h4{
+    display:inline-block;
+    font-size: 19px;
+}
+
+.pilot ul{
+list-style: none;
+}
+
+.pilot ul li{
+    display: inline-block;
+}
+
+.pilot ul li .far.fa-star{
+    background: #32b832;
+    color: white;
+    font-size: 25px;
+    padding: 4px;
+    margin: 6px 0px;
+}
+
+.pilot p{
+    padding-bottom: 10px;
+}
+
+                /* dansk section */
+
+.dansk{
+    width: 100%;
+    float: left;
+    background: rgba(12, 12, 12, 0.555);
+    margin-top: 13px;
+}
+
+.dansk img{
+    width: 100%;
+    height: auto;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.dansk h6{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    padding-top: 24px;
+    font-weight: bold;
+}
+
+.dansk p{
+    color: black;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin: 15px 42px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.dansk-1{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+.dansk-2{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+.dansk-3{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+.dansk-4{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+.dansk-5{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+                            /*footer*/
+
+.footer{
+    width: 100%;
+    float: left;
+    background: #042E3E;
+}
+
+.footer-1{
+    width: 35%;
+    float: left;
+    color: white;
+    text-align: right;
+    padding: 20px 0px;
+}
+
+.footer-2{
+    width: 65%;
+    float: right;
+    color:white;
+    text-align: center;
+    padding: 20px 0px;
+}
